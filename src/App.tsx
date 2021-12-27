@@ -20,6 +20,7 @@ function App() {
      setPostData(response.data)
    }
 
+   console.log(process.env.API_KEY);
    getData()
   }, [])
 
